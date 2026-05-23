@@ -3,5 +3,5 @@ import App from './App.jsx'
 import FormikForm from './FormikForm.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <App />
+  <FormikForm />
 )

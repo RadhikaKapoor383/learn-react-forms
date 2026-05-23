@@ -1,4 +1,5 @@
 import { Field, Form, Formik } from 'formik';
+import './FormikForm.css';
 
 const initialValues = {
   name: '',
@@ -67,7 +68,7 @@ Date of Birth: ${values.dateOfBirth}`
   return (
     <Formik initialValues={initialValues} validate={validate} onSubmit={handleSubmit}>
       {({ errors, touched }) => (
-        <Form>
+        <Form className="formik-form">
           <label>Name:</label>
           <Field name="name" />
           {touched.name && errors.name && <ErrorMessage>{errors.name}</ErrorMessage>}
