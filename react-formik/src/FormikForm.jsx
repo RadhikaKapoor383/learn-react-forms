@@ -67,10 +67,11 @@ Date of Birth: ${values.dateOfBirth}`
 
   return (
     <>
-      <h2 className="formik-title">Student Registration Form</h2>
+      
       <Formik initialValues={initialValues} validate={validate} onSubmit={handleSubmit}>
         {({ errors, touched }) => (
           <Form className="formik-form">
+            <h2 className="formik-title">Student Registration Form</h2><br /><br />
             <label>Name:</label>
             <Field name="name" />
             {touched.name && errors.name && <ErrorMessage>{errors.name}</ErrorMessage>}
