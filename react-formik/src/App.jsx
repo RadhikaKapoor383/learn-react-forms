@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './App.css';
 function Form() {
   const [name, setName]   = useState('');
   const [email, setEmail] = useState('');
