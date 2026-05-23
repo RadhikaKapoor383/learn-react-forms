@@ -1,10 +1,11 @@
 .formik-title {
-  width: min(100%, 530px);
+  grid-column: 1 / -1;
+  width: 100%;
   box-sizing: border-box;
-  margin: 0 auto 14px;
+  margin: 0 0 10px;
   padding: 14px 24px;
   color: #17324d;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 800;
   letter-spacing: 0;
   text-align: center;
@@ -23,6 +24,8 @@
   grid-template-columns: 170px minmax(240px, 320px);
   justify-content: center;
   gap: 13px 20px;
+  width: min(100% - 32px, 570px);
+  margin: 32px auto;
   padding: 30px;
   overflow: hidden;
   color: #233045;
@@ -47,10 +50,12 @@
 .formik-form label {
   position: relative;
   z-index: 1;
+  grid-column: 1;
   align-self: center;
   margin: 0;
   color: #26364f;
   font-weight: 700;
+  text-align: right;
 }
 
 .formik-form input,
@@ -58,6 +63,7 @@
 .formik-form textarea {
   position: relative;
   z-index: 1;
+  grid-column: 2;
   width: 100%;
   max-width: 320px;
   padding: 12px 14px;
@@ -148,9 +154,22 @@
     padding: 22px;
   }
 
+  .formik-title {
+    width: min(100%, 360px);
+    font-size: 22px;
+  }
+
+  .formik-form label,
+  .formik-form input,
+  .formik-form select,
+  .formik-form textarea,
   .formik-form p,
   .formik-form button {
     grid-column: 1;
+  }
+
+  .formik-form label {
+    text-align: left;
   }
 
   .formik-form label:has(input[type='checkbox']) {
