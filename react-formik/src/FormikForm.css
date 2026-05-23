@@ -1,9 +1,16 @@
 .formik-title {
-  margin: 0 0 18px;
-  color: #14213d;
-  font-size: 26px;
+  width: fit-content;
+  margin: 0 auto 20px;
+  padding: 10px 24px;
+  color: #17324d;
+  font-size: 24px;
   font-weight: 800;
+  letter-spacing: 0;
   text-align: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(240, 253, 250, 0.92));
+  border: 1px solid rgba(20, 184, 166, 0.28);
+  border-radius: 999px;
+  box-shadow: 0 12px 28px rgba(35, 48, 69, 0.13);
 }
 
 .formik-form {
