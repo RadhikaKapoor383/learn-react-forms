@@ -1,7 +1,7 @@
 .formik-form {
   position: relative;
   display: grid;
-  grid-template-columns: 170px minmax(280px, 440px);
+  grid-template-columns: 170px minmax(240px, 320px);
   justify-content: center;
   gap: 13px 20px;
   padding: 30px;
@@ -40,7 +40,7 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 440px;
+  max-width: 320px;
   padding: 12px 14px;
   border: 1px solid rgba(118, 134, 163, 0.55);
   border-radius: 10px;
