@@ -1,3 +1,11 @@
+.formik-title {
+  margin: 0 0 18px;
+  color: #14213d;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+}
+
 .formik-form {
   position: relative;
   display: grid;
