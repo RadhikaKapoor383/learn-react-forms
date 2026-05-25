@@ -42,7 +42,7 @@ body {
   border: 1px solid #b8c4d6;
   border-radius: 6px;
   font: inherit;
-  color: #1f2937;
+  color: #1b2533;
   background: #ffffff;
   box-sizing: border-box;
 }
@@ -51,7 +51,7 @@ body {
   width: auto;
   max-width: none;
   margin: 0 6px 0 12px;
-  accent-color: #2563eb;
+  accent-color: #39548d;
 }
 
 .App textarea {
@@ -63,7 +63,7 @@ body {
 .App input:focus,
 .App select:focus,
 .App textarea:focus {
-  border-color: #2563eb;
+  border-color: #39548d;
   outline: 3px solid rgba(37, 99, 235, 0.18);
 }
 
@@ -71,7 +71,7 @@ body {
   padding: 11px 22px;
   border: 0;
   border-radius: 6px;
-  background: #2563eb;
+  background: #39548d;
   color: #ffffff;
   font: inherit;
   font-weight: 700;
